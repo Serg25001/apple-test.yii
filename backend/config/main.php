@@ -38,12 +38,13 @@ return [
             'errorAction' => 'site/error',
         ],
 
-        /*'urlManager' => [
+        'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'apple' => 'apple/index',
             ],
-        ],*/
+        ],
 
     ],
     'as access' => [
